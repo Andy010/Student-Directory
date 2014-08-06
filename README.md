@@ -9,8 +9,3 @@ How to use
 ```shell
 ruby directory.rb
 ```
-hey , don't mind me 
-asdhdhfsd ksdf ksefh sdif ksefh sjf sf 
-sjdfjsdfj sd
-sdjf sjfsdfsefiosgldhd
-dlfohdrohdrihidrh
