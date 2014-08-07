@@ -3,11 +3,11 @@ students = [
 def input_students
 	puts "Students first name"
 	students = []
-	first_name = gets.chomp
-	while !first_name.empty? do
-		students << {:first_name => first_name, :cohort => :august}
+	name = gets.chomp
+	while !name.empty? do
+		students << {:name => name, :cohort => :august}
 		puts "Now we have #{students.length} students"
-		first_name = gets.chomp
+		name = gets.chomp
 	end
 	students
 end
@@ -20,7 +20,7 @@ end
 
 def print(students)
 	students.each do |student|
-		puts "#{student[:first_name => name]} (#{student[:cohort]} cohort)"
+		puts "#{student[:name]} (#{student[:cohort]} cohort)"
 	end
 end
 
